@@ -1,1 +1,1 @@
-/Users/christiansanchez/Documents/Develop/GitHub/rust/hello_cargo/target/debug/hello_cargo: /Users/christiansanchez/Documents/Develop/GitHub/rust/hello_cargo/src/main.rs
+/Users/nightwing/Documents/develop/rust-learning/hello_cargo/target/debug/hello_cargo: /Users/nightwing/Documents/develop/rust-learning/hello_cargo/src/main.rs
