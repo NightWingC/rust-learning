@@ -12,80 +12,96 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 > Follow the modules in order to progress step-by-step:
 
-### 🚧 1. Fundamentals
-- Basic syntax
+### ✅ 1. Introduction to Rust
+- What is Rust?
+- Using Cargo
+- Your first `Hello, World!` program
+
+---
+
+### 🚧 2. Language Fundamentals
+- Variables and mutability
 - Data types
-- Variables, functions, mutability
+- Functions and parameters
+- Code blocks and comments
 
 ---
 
-### ❌ 2. Control Flow
-- `if`, `match`, `loop`, `while`, `for`
-- Patterns
+### ❌ 3. Control Flow
+- `if`, `else`, `match`
+- Loops: `loop`, `while`, `for`
+- Pattern matching
 
 ---
 
-### ❌ 3. Collections
-- Vectors, Strings, HashMaps
-- Iterators and closures
+### ❌ 4. Functions and Scope
+- Function declarations
+- Return values
+- Scope and shadowing
+- Closures
 
 ---
 
-### ❌ 4. Ownership and Borrowing
-- Ownership model
-- References and borrowing
-- Lifetimes
-
----
-
-### ❌ 5. Smart Pointers
-- `Box`, `Rc`, `RefCell`
-- Real-world use cases
+### ❌ 5. Iterators
+- Using `.iter()`, `.into_iter()`, `.enumerate()`
+- Chaining iterator methods (`.map()`, `.filter()`, etc.)
+- Custom iterator implementations
 
 ---
 
 ### ❌ 6. Error Handling
-- `Result`, `Option`, `?` operator
-- Error propagation and control
+- `Result`, `Option`, and `unwrap()`
+- Error propagation with `?`
+- `expect()` and meaningful error messages
+- Matching on errors
 
 ---
 
-### ❌ 7. Linters & Best Practices
-- `clippy`, `rustfmt`
-- Writing idiomatic Rust
+### ❌ 7. Object-Oriented Programming in Rust
+- Structs and enums
+- Traits and trait implementations
+- Associated functions
+- Trait objects and dynamic dispatch
 
 ---
 
-### ❌ 8. First CLI App
-- Command-line project
+### ❌ 8. Packages and Imports
+- Crate layout: `main.rs`, `lib.rs`, modules
+- Importing modules with `use`
+- Using external crates from `crates.io`
+- Visibility and encapsulation
 
 ---
 
 ### ❌ 9. Concurrency & Parallelism
-- Threads (`std::thread`)
-- Channels and `Mutex`
+- Spawning threads (`std::thread`)
+- Sharing data: `Arc`, `Mutex`
+- Message passing with `mpsc`
+- Thread synchronization
 
 ---
 
-### ❌ 10. Async Programming
-- `async` / `await`
-- `tokio`, `reqwest`
+### ❌ 10. Asynchronous Programming
+- `async` / `await` syntax
+- Using the `tokio` runtime
+- Futures and tasks
+- Async channels
 
 ---
 
-### ❌ 11. Second App: Web Project
-- Web Services
+### ❌ 11. Working with Databases
+- Connecting to databases (`sqlx`, `diesel`)
+- Running migrations
+- Writing and executing queries
+- Environment variables and config
 
 ---
 
-### ❌ 12. Second App: Web Project
-- Building API
-
----
-
-### ❌ 13. WebAssembly
-- Rust and JavaScript
-- Rust in FrontEnd
+### ❌ 12. Web Development with Rust
+- Building APIs using `actix-web` or `axum`
+- Routing and handlers
+- Middleware
+- Returning JSON responses
 
 ---
 
@@ -98,15 +114,15 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ## 📖 Book Recommendations by Level
 
-| Stage                          | Book                                                                  | Progress |
-|--------------------------------|------------------------------------------------------------------------|----------|
-| Beginner                       | The Rust Programming Language – Steve Klabnik                         | 🚧       |
-| Intermediate                   | Rust in 30 Days – Adrian Mercer                                       | ❌       |
-| Deep Understanding             | Programming Rust – Jim Blandy                                         | ❌       |
-| Idiomatic Rust                 | Rust for Rustaceans – Jon Gjengset                                    | ❌       |
-| CLI Projects                   | Command Line Rust – Ken Youens-Clark                                  | ❌       |
-| Best Practices                 | Effective Rust – David Drysdale                                       | ❌       |
-| Backend Development            | Zero to Production in Rust – Luca Palmieri                            | ❌       |
+| Stage                | Book                                                                  | Progress |
+|----------------------|------------------------------------------------------------------------|----------|
+| Beginner             | *The Rust Programming Language* – Steve Klabnik                        | 🚧       |
+| Intermediate         | *Rust in 30 Days* – Adrian Mercer                                      | ❌       |
+| Deep Understanding   | *Programming Rust* – Jim Blandy                                        | ❌       |
+| Idiomatic Rust       | *Rust for Rustaceans* – Jon Gjengset                                   | ❌       |
+| CLI Projects         | *Command Line Rust* – Ken Youens-Clark                                 | ❌       |
+| Best Practices       | *Effective Rust* – David Drysdale                                      | ❌       |
+| Backend Development  | *Zero to Production in Rust* – Luca Palmieri                           | ❌       |
 
 ---
 
