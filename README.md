@@ -19,7 +19,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### 🚧 2. Language Fundamentals
+### ✅ 2. Language Fundamentals
 - Variables and mutability
 - Data types
 - Functions and parameters
@@ -27,7 +27,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### ❌ 3. Control Flow
+### 🚧 3. Control Flow
 - `if`, `else`, `match`
 - Loops: `loop`, `while`, `for`
 - Pattern matching
