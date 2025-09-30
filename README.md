@@ -34,7 +34,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### 🚧 4. Functions and Scope
+### ✅ 4. Functions and Scope
 - Function declarations
 - Return values
 - Scope and shadowing
@@ -42,7 +42,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### ❌ 5. Iterators
+### 🚧 5. Iterators
 - Using `.iter()`, `.into_iter()`, `.enumerate()`
 - Chaining iterator methods (`.map()`, `.filter()`, etc.)
 - Custom iterator implementations

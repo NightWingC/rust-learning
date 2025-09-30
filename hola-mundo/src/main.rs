@@ -1,12 +1,14 @@
+fn doble(x: i32) -> i32 { x * 2}
+fn mas_cinco(x: i32) -> i32 { x + 5}
+
+fn comp<F,G>(f: F, g: G) -> impl Fn(i32) -> i32 
+    where 
+        F: Fn(i32) -> i32,
+        G: Fn(i32) -> i32,
+        {
+            move| x | g(f(x)) 
+        }
 fn main(){
-    let numeros = 0..=5;
-    let otros_numeros = numeros.clone();
-
-    for num in numeros{
-        println!("consumi el numero: {num}");
-    }
-
-    for num2 in otros_numeros {
-        println!("Consumí el numero: {num2}");
-    }
+    let doble_mas_cinco = comp(doble, mas_cinco);
+    println!("Resultado: {}", doble_mas_cinco(3))
 }
