@@ -42,14 +42,14 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### 🚧✅ 5. Iterators
+### ✅ 5. Iterators
 - Using `.iter()`, `.into_iter()`, `.enumerate()`
 - Chaining iterator methods (`.map()`, `.filter()`, etc.)
 - Custom iterator implementations
 
 ---
 
-### 🚧 6. Error Handling
+### ✅  6. Error Handling
 - `Result`, `Option`, and `unwrap()`
 - Error propagation with `?`
 - `expect()` and meaningful error messages
@@ -57,7 +57,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### ❌ 7. Object-Oriented Programming in Rust
+### 🚧 7. Object-Oriented Programming in Rust
 - Structs and enums
 - Traits and trait implementations
 - Associated functions

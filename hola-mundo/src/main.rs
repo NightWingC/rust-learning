@@ -1,9 +1,16 @@
-fn main(){
-    let numeros = vec![1,2,3,4,5,6];
-    
-    let suma = numeros
-        .iter()
-        .fold(0, |acumulador, &x| acumulador + x);
+use std::fs::File;
+use std::io;
 
-    println!("La suma es {}", suma); 
+fn abrir_archivo(path: &str) -> io::Result<File> {
+    File::open(path)
 }
+
+fn main(){
+    let archivo = abrir_archivo("datos.txt").unwrap();
+    println!("Archivo abierto: {:?}", archivo);
+
+    let archivo_dos = abrir_archivo("datos2.txt").expect("No se pudo abrir el archivo");
+    println!("Archivo 2 abierto: {:?}", archivo_dos);
+
+}
+
