@@ -1,32 +1,25 @@
 fn main(){
 
-    let mut number = 3;
-    
-    while number != 0 {
-        println!("number: {number}");
-        number -=1;
-    }
-    println!("LIFTOPFF!!");
+    let s1 = String::from("Hello");
+    let s2 = s1.clone();
+    println!("S1 = {s1}, S2 = {s2}");
 
-    let a = vec![10,20,30,40,50];
-    let mut index = 0;
-    while index < 5 {
-        println!("The values is {}", a[index]);
-        index += 1;
-    } 
-    println!("LIFTOPFF!!");
+    let x = 5;
+    let y = x;
 
+    println!("x: {x}, y: {y}");
 
-    for num in a {
-        println!("The values is {num}");
-    }
-    println!("LIFTOPFF!!");
+    let s = String::from("Hello"); // s comes into scope 
+    takes_ownership(s); // s's values move into the function...
 
+    let x = 5; // x comes into scope
+    makes_copy(x); // x would move into the function 
+}
 
-    // Rev
-    for number in (1..=4).rev(){
-        println!("The number is: {number}");
-    }
-    println!("LIFTOPFF!!");
+fn takes_ownership(some_string: String){
+    println!("{some_string}")
+}
 
+fn makes_copy(some_integer: i32){
+    println!("{some_integer}")
 }

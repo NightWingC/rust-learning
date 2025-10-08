@@ -49,7 +49,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### ✅  6. Error Handling
+### ✅ 6. Error Handling
 - `Result`, `Option`, and `unwrap()`
 - Error propagation with `?`
 - `expect()` and meaningful error messages
@@ -57,7 +57,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### 🚧 7. Object-Oriented Programming in Rust
+### ✅ 7. Object-Oriented Programming in Rust
 - Structs and enums
 - Traits and trait implementations
 - Associated functions
@@ -65,7 +65,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### ❌ 8. Packages and Imports
+### 🚧 8. Packages and Imports
 - Crate layout: `main.rs`, `lib.rs`, modules
 - Importing modules with `use`
 - Using external crates from `crates.io`
