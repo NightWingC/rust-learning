@@ -24,6 +24,7 @@ fn makes_copy(some_integer: i32){
     println!("{some_integer}")
 }
 
+<<<<<<< HEAD
 // -------------- //
 fn exercise2(){
     let s1 = String::from("Hello");
@@ -49,3 +50,20 @@ fn exercise3(){
 fn calculate_lenght(s: &String) -> usize {
     s.len() 
 }
+=======
+
+fn main(){
+    let s1 = gives_ownership();
+    let s2 = String::from("Hello");
+    let s3 = takes_and_gives_back(s2);
+}
+
+fn gives_ownership() -> String {
+    let some_string = String::from("yours");
+    some_string
+}
+
+fn takes_and_gives_back(a_string: String) -> String {
+    a_string
+}
+>>>>>>> 489b48c (concurrency)

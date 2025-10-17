@@ -1,0 +1,5 @@
+clap: Para parseo de argumentos de linea de comando
+regex: Manejo de expresiones regulares
+anyhow: Manejo de errores flexible (prototipos o pequeños proyectos)
+thiserror: Para definir enums de eeror de forma clara y sencilla 
+crossbeam / rayon: Opciones para concurrencia y paralelismo

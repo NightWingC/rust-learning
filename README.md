@@ -65,7 +65,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### 🚧 8. Packages and Imports
+### ✅ 8. Packages and Imports
 - Crate layout: `main.rs`, `lib.rs`, modules
 - Importing modules with `use`
 - Using external crates from `crates.io`
@@ -73,7 +73,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### ❌ 9. Concurrency & Parallelism
+### ✅ 9. Concurrency & Parallelism
 - Spawning threads (`std::thread`)
 - Sharing data: `Arc`, `Mutex`
 - Message passing with `mpsc`
@@ -81,7 +81,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### ❌ 10. Asynchronous Programming
+### 🚧 10. Asynchronous Programming
 - `async` / `await` syntax
 - Using the `tokio` runtime
 - Futures and tasks
