@@ -116,8 +116,8 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 | Stage                | Book                                                                  | Progress |
 |----------------------|------------------------------------------------------------------------|----------|
-| Beginner             | *The Rust Programming Language* – Steve Klabnik                        | 🚧       |
-| Intermediate         | *Rust in 30 Days* – Adrian Mercer                                      | ❌       |
+| Beginner        | *Rust in 30 Days* – Adrian Mercer                                      | 🚧       |
+| Beginner             | *The Rust Programming Language* – Steve Klabnik                        | ❌       |
 | Deep Understanding   | *Programming Rust* – Jim Blandy                                        | ❌       |
 | Idiomatic Rust       | *Rust for Rustaceans* – Jon Gjengset                                   | ❌       |
 | CLI Projects         | *Command Line Rust* – Ken Youens-Clark                                 | ❌       |
