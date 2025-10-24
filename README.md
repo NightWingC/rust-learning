@@ -109,6 +109,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 - 📘 [The Rust Programming Language ("The Book")](https://doc.rust-lang.org/book/title-page.html)  
 - 🧠 [Rust by Example](https://doc.rust-lang.org/rust-by-example/)
+- [100 Exercises to learn Rust](https://rust-exercises.com/)
 
 ---
 
