@@ -1,0 +1,8 @@
+[default]
+log_level = "debug"
+
+[debug]
+port = 8001
+
+[release]
+port = 8000

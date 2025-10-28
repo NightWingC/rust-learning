@@ -81,7 +81,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### 🚧 10. Asynchronous Programming
+### ✅ 10. Asynchronous Programming
 - `async` / `await` syntax
 - Using the `tokio` runtime
 - Futures and tasks
@@ -89,7 +89,7 @@ This course will guide you step-by-step through the fundamentals of the Rust pro
 
 ---
 
-### ❌ 11. Working with Databases
+### 🚧 11. Working with Databases
 - Connecting to databases (`sqlx`, `diesel`)
 - Running migrations
 - Writing and executing queries
